@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yaml_config"
+version = "0.1.0"
+description = "Config utility using python's dataclass"
+authors = [
+    { name = "Kazuki Masaaki", email = "please_write@your.mail.com" },
+    { name = "HoneyMack", email = "tosimiti7@gmail.com" }
+]
+dependencies = ["pyyaml", "dataclasses; python_version<'3.7'", "typing; python_version<'3.5'"]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+urls = { "Homepage" = "https://github.com/kzmssk/yaml_config" }
